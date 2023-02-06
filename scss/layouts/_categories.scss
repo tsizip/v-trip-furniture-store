@@ -1,0 +1,1285 @@
+.categories {
+     padding: 40px 0 0 0;
+
+     .cate__content {
+          text-align: center;
+
+          .cate {
+               font-weight: 700;
+               font-size: 32px;
+               letter-spacing: 10px;
+               margin: 25px 0px;
+          }
+
+          .product2 {
+               margin-top: 80px !important;
+          }
+
+          .product {
+               box-shadow: -1px -1px 20px 7px #dee2e6;
+               width: 95%;
+               margin: 45px auto;
+               border-radius: 10px;
+
+               .banLV {
+                    padding-top: 20px;
+                    border-bottom: 1px solid #dee2e6;
+                    text-align: center;
+                    margin-bottom: 5px;
+
+                    p {
+                         text-shadow: 0px 1px 20px #201818;
+                         font-style: italic;
+                         color: $color-black;
+                         font-size: 34px;
+                    }
+               }
+
+               // background-color: $color-black-4;
+               .row-cus {
+                    // border: 1px solid black;
+
+                    padding: 16px;
+
+                    .col-4-cus {
+                         text-align: center;
+
+                         // background-color: $color-blue;
+                         video {
+                              // border: 1px solid black;
+                              width: 100%;
+                         }
+                    }
+
+                    .col-8-cus {
+                         .nav-tabs {
+                              // margin-top: 34px;
+                              margin-bottom: 10px;
+                              border-bottom: 3px solid #dee2e6;
+
+                              .nav-item {
+                                   margin-bottom: unset;
+
+                                   .nav-link {
+                                        font-style: italic;
+                                        font-size: 15px;
+                                        border: unset;
+                                        color: $color-black;
+
+                                        &.active {
+                                             border-color: unset;
+                                             border-bottom: 2px solid black;
+                                             color: $color-black;
+                                             font-weight: bold;
+                                        }
+                                   }
+                              }
+                         }
+
+                         .tab-content {
+                              .tab-pane {
+                                   .products-carousel {
+                                        position: relative;
+
+                                        .owl-stage-outer {
+
+                                             // padding: 12px;
+                                             .owl-stage {
+                                                  // .owl-item{
+                                                  //      margin-right: 5!important;
+                                                  //      margin-left: 5!important;
+                                                  // }
+                                             }
+                                        }
+
+                                        .owl-nav {
+                                             // position: absolute;
+                                             // width: 100%;
+                                             // display: none;
+
+                                             button {
+                                                  cursor: pointer;
+
+                                                  &:focus {
+                                                       outline: unset;
+                                                  }
+
+                                                  width: 40px;
+                                                  height: 40px;
+                                                  border-radius: 50%;
+                                                  background-color: $color-white;
+                                                  line-height: 33px;
+                                                  border: 1px solid $color-black;
+
+                                                  span {
+                                                       font-weight: 900;
+                                                       font-size: 30px;
+                                                       color: $color-blue-2;
+                                                  }
+                                             }
+
+                                             .owl-prev {
+                                                  // text-align: left;
+                                                  // width: 50%;
+                                                  position: absolute;
+                                                  left: -3%;
+                                                  top: 33%;
+                                             }
+
+                                             .owl-next {
+                                                  // width: 47%;
+                                                  // text-align: right;
+                                                  position: absolute;
+                                                  right: -3%;
+                                                  top: 33%;
+                                             }
+                                        }
+
+                                        .item {
+                                             padding: 11px;
+
+                                             .card {
+                                                  cursor: pointer;
+                                                  transition: all 0.3s;
+
+                                                  &:hover {
+                                                       box-shadow: 6px 5px 7px 0px #858585;
+                                                  }
+
+                                                  // border: 0,5px solid black;
+                                                  width: 100%;
+
+                                                  .card-body {
+                                                       background-color: #dee2e6;
+                                                       color: $color-black;
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+
+          .product__banHop {
+               // border-top: 3px solid $color-black;
+               // border-left: 3px solid $color-black;
+               box-shadow: -1px -1px 20px 7px #dee2e6;
+               width: 95%;
+               margin: 50px auto;
+               border-radius: 10px;
+
+               // position: relative;
+               .banHop {
+                    // position: absolute;
+                    // top: 0;
+                    // left: 0;
+                    // right: 0;
+                    padding-top: 20px;
+                    border-bottom: 1px solid #dee2e6;
+                    margin-bottom: 10px;
+
+                    p {
+                         text-shadow: 0px 1px 20px #201818;
+                         font-style: italic;
+                         color: #000;
+                         font-size: 34px;
+                    }
+               }
+
+               // bàn họp
+               .row-cus {
+                    padding: 25px;
+
+                    // width: 97.5%;
+                    // margin: 0 auto;
+                    // border: 1px solid black;
+                    .col-cus {
+                         .owl-banHop {
+                              position: relative;
+
+                              .owl-nav {
+                                   button {
+                                        &:focus {
+                                             outline: unset;
+                                        }
+
+                                        border: 1px solid black;
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        background-color: #85858547;
+                                        line-height: 30px;
+
+                                        span {
+                                             font-size: 40px;
+                                             color: black;
+                                             font-weight: 900;
+                                        }
+                                   }
+
+                                   .owl-prev {
+                                        position: absolute;
+                                        top: 37%;
+                                        left: -2%;
+                                   }
+
+                                   .owl-next {
+                                        position: absolute;
+                                        top: 37%;
+                                        right: -2%;
+                                   }
+                              }
+
+                              .item {
+                                   transition: all 0.3s;
+
+                                   &:hover {
+                                        box-shadow: 6px 5px 7px 0px #858585;
+                                   }
+
+                                   .card {
+                                        border: 1px solid #dee2e6;
+
+                                        .card-body {
+                                             background-color: #dee2e6;
+                                             color: $color-black;
+                                        }
+                                   }
+                              }
+
+                              .owl-stage-outer {
+                                   .owl-stage {
+                                        .owl-item {
+                                             padding: 10px;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+
+               // bàn cf
+               .banCF {
+                    padding-top: 20px;
+                    border-bottom: 1px solid #dee2e6;
+                    margin-bottom: 10px;
+
+                    p {
+                         text-shadow: 0px 1px 20px #201818;
+                         font-style: italic;
+                         color: #000;
+                         font-size: 34px;
+                    }
+               }
+
+               .row-cf-cus {
+                    margin: 0;
+                    width: 100%;
+
+                    .col-8-cus {
+                         .row-cus {
+                              margin: 0 auto;
+
+                              .col-12-cus {
+                                   padding: 0;
+                                   .setHeight{
+                                        .owl-banCF{
+                                             .owl-nav{
+                                                  button {
+                                                       &:focus {
+                                                            outline: unset;
+                                                       }
+               
+                                                       border: 1px solid black;
+                                                       width: 40px;
+                                                       height: 40px;
+                                                       border-radius: 50%;
+                                                       background-color: #85858547;
+                                                       line-height: 30px;
+               
+                                                       span {
+                                                            font-size: 40px;
+                                                            color: black;
+                                                            font-weight: 900;
+                                                       }
+                                                  }
+               
+                                                  .owl-prev {
+                                                       position: absolute;
+                                                       top: 37%;
+                                                       left: -2%;
+                                                  }
+               
+                                                  .owl-next {
+                                                       position: absolute;
+                                                       top: 37%;
+                                                       right: -2%;
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .setHeight {
+                                        .owl-banCF {
+                                             .owl-stage-outer {
+                                                  .owl-stage {
+                                                       .owl-item {
+                                                            padding: 10px;
+
+                                                            .item {
+                                                                 transition: all 0.3s;
+
+                                                                 &:hover {
+                                                                      box-shadow: 6px 5px 7px 0px #858585;
+                                                                 }
+
+                                                                 .card {
+
+                                                                      // padding: 10px;
+                                                                      .card-body {
+                                                                           background-color: #dee2e6;
+                                                                      }
+                                                                 }
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .col-4-cus-video-cf {
+                         video {
+                              margin-top: 12%;
+                         }
+                    }
+               }
+               .bancfmoi{
+                    
+                    padding:0 35px 35px 35px;
+                    .row-cus{
+                         padding: 0;
+                         width: 100%;
+                         margin: 0;
+                         .col-cus{
+                              padding: 0;
+                              video{
+                                   width: 90%;
+                                   margin-top: 3%;
+                              }
+                              .setHeight{
+                                   .owl-bcfn{
+                                        .owl-nav{
+                                             display: none;
+                                        }
+                                        .owl-stage-outer{
+                                             .owl-stage{
+                                                  .owl-item{
+                                                       padding: 10px;
+                                                       .item{
+                                                            // padding: 5px;
+                                                            transition: all 0.3s;
+
+                                                                 &:hover {
+                                                                      box-shadow: 6px 5px 7px 0px #858585;
+                                                                 }
+
+                                                                 .card {
+
+                                                                      // padding: 10px;
+                                                                      .card-body {
+                                                                           background-color: #dee2e6;
+                                                                      }
+                                                                 }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+
+          .product__ke {
+               // border-top: 3px solid $color-black;
+               // border-left: 3px solid $color-black;
+               box-shadow: -1px -1px 20px 7px #dee2e6;
+               width: 95%;
+               margin: 50px auto;
+               border-radius: 10px;
+
+               // position: relative;
+               .banHop {
+                    // position: absolute;
+                    // top: 0;
+                    // left: 0;
+                    // right: 0;
+                    padding-top: 20px;
+                    border-bottom: 1px solid #dee2e6;
+                    margin-bottom: 10px;
+
+                    p {
+                         text-shadow: 0px 1px 20px #201818;
+                         font-style: italic;
+                         color: #000;
+                         font-size: 34px;
+                    }
+               }
+
+               // bàn họp
+               .row-cus {
+                    padding: 25px;
+
+                    // width: 97.5%;
+                    // margin: 0 auto;
+                    // border: 1px solid black;
+                    .col-cus {
+                         .owl-banHop {
+                              position: relative;
+
+                              .owl-nav {
+                                   button {
+                                        &:focus {
+                                             outline: unset;
+                                        }
+
+                                        border: 1px solid black;
+                                        width: 40px;
+                                        height: 40px;
+                                        border-radius: 50%;
+                                        background-color: #85858547;
+                                        line-height: 30px;
+
+                                        span {
+                                             font-size: 40px;
+                                             color: black;
+                                             font-weight: 900;
+                                        }
+                                   }
+
+                                   .owl-prev {
+                                        position: absolute;
+                                        top: 37%;
+                                        left: -2%;
+                                   }
+
+                                   .owl-next {
+                                        position: absolute;
+                                        top: 37%;
+                                        right: -2%;
+                                   }
+                              }
+
+                              .item {
+                                   transition: all 0.3s;
+
+                                   &:hover {
+                                        box-shadow: 6px 5px 7px 0px #858585;
+                                   }
+
+                                   .card {
+                                        border: 1px solid #dee2e6;
+
+                                        .card-body {
+                                             background-color: #dee2e6;
+                                             color: $color-black;
+                                        }
+                                   }
+                              }
+
+                              .owl-stage-outer {
+                                   .owl-stage {
+                                        .owl-item {
+                                             padding: 10px;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+
+               // bàn cf
+               .banCF {
+                    padding-top: 20px;
+                    border-bottom: 1px solid #dee2e6;
+                    margin-bottom: 10px;
+
+                    p {
+                         text-shadow: 0px 1px 20px #201818;
+                         font-style: italic;
+                         color: #000;
+                         font-size: 34px;
+                    }
+               }
+
+               .row-cf-cus {
+                    margin: 0;
+                    width: 100%;
+
+                    .col-8-cus {
+                         .row-cus {
+                              margin: 0 auto;
+
+                              .col-12-cus {
+                                   padding: 0;
+
+                                   .setHeight {
+                                        .owl-banCF {
+                                             .owl-stage-outer {
+                                                  .owl-stage {
+                                                       .owl-item {
+                                                            padding: 10px;
+
+                                                            .item {
+                                                                 transition: all 0.3s;
+
+                                                                 &:hover {
+                                                                      box-shadow: 6px 5px 7px 0px #858585;
+                                                                 }
+
+                                                                 .card {
+
+                                                                      // padding: 10px;
+                                                                      .card-body {
+                                                                           background-color: #dee2e6;
+                                                                      }
+                                                                 }
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .col-4-cus-video-cf {
+                         video {
+                              margin-top: 12%;
+                         }
+                    }
+               }
+          }
+
+          hr{
+               border-top: 1px solid black;
+          }
+
+          .cfLeTan {
+               box-shadow: -1px -1px 20px 7px #dee2e6;
+               border-radius: 10px;
+               width: 95%;
+               margin-top: 4%;
+               margin-bottom: 4%;
+               .quayLeTan {
+                    padding-top: 20px;
+                    border-bottom: 1px solid #dee2e6;
+                    margin-bottom: 10px;
+
+                    p {
+                         text-shadow: 0px 1px 20px #201818;
+                         font-style: italic;
+                         color: #000;
+                         font-size: 34px;
+                    }
+               }
+
+               .row-cus {
+                    width: 100%;
+                    margin: 0;
+                    padding: 31px;
+
+                    .col-8-cus {
+                         .row-cus {
+                              padding: 0;
+
+                              .col-cus {
+                                   padding: 0;
+
+                                   .setHeight {
+                                        .owl-qlt {
+                                             .owl-nav{
+                                                  button {
+                                                       &:focus {
+                                                            outline: unset;
+                                                       }
+               
+                                                       border: 1px solid black;
+                                                       width: 40px;
+                                                       height: 40px;
+                                                       border-radius: 50%;
+                                                       background-color: #85858547;
+                                                       line-height: 30px;
+               
+                                                       span {
+                                                            font-size: 40px;
+                                                            color: black;
+                                                            font-weight: 900;
+                                                       }
+                                                  }
+               
+                                                  .owl-prev {
+                                                       position: absolute;
+                                                       top: 31%;
+                                                       left: -4%;
+                                                  }
+               
+                                                  .owl-next {
+                                                       position: absolute;
+                                                       top: 31%;
+                                                       right: -4%;
+                                                  }
+                                             }
+                                             .item {
+                                                  transition: all 0.3s;
+
+                                                                 &:hover {
+                                                                      box-shadow: 6px 5px 7px 0px #858585;
+                                                                 }
+                                                  .card {
+                                                       .card-body{
+                                                            background-color: #dee2e6;
+                                                       }
+                                                       margin-bottom: 10px;
+                                                       a {
+                                                            img {
+                                                                 // height: 180px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+
+          .product_gheVP {
+               box-shadow: -1px -1px 20px 7px #dee2e6;
+               border-radius: 10px;
+               width: 95%;
+               margin-top: 4%;
+               .quayLeTan {
+                    padding-top: 20px;
+                    border-bottom: 1px solid #dee2e6;
+                    margin-bottom: 10px;
+
+                    p {
+                         text-shadow: 0px 1px 20px #201818;
+                         font-style: italic;
+                         color: #000;
+                         font-size: 34px;
+                    }
+               }
+
+               .row-cus {
+                    width: 100%;
+                    margin: 0;
+                    padding: 31px;
+
+                    .col-8-cus {
+                         .row-cus {
+                              padding: 0;
+
+                              .col-cus {
+                                   padding: 0;
+
+                                   .setHeight {
+                                        .owl-qlt {
+                                             .owl-nav{
+                                                  button {
+                                                       &:focus {
+                                                            outline: unset;
+                                                       }
+               
+                                                       border: 1px solid black;
+                                                       width: 40px;
+                                                       height: 40px;
+                                                       border-radius: 50%;
+                                                       background-color: #85858547;
+                                                       line-height: 30px;
+               
+                                                       span {
+                                                            font-size: 40px;
+                                                            color: black;
+                                                            font-weight: 900;
+                                                       }
+                                                  }
+               
+                                                  .owl-prev {
+                                                       position: absolute;
+                                                       top: 31%;
+                                                       left: -4%;
+                                                  }
+               
+                                                  .owl-next {
+                                                       position: absolute;
+                                                       top: 31%;
+                                                       right: -4%;
+                                                  }
+                                             }
+                                             .item {
+                                                  transition: all 0.3s;
+
+                                                                 &:hover {
+                                                                      box-shadow: 6px 5px 7px 0px #858585;
+                                                                 }
+                                                  .card {
+                                                       .card-body{
+                                                            background-color: #dee2e6;
+                                                            .card-title{
+                                                                 font-size: 13px;
+                                                            }
+                                                       }
+                                                       margin-bottom: 10px;
+                                                       a {
+                                                            img {
+                                                                 // height: 180px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("extra") {
+     .cfLeTan, .product_gheVP {
+          .row-cus {
+               .col-cus {
+                    video {
+                         margin-top: 2%;
+                    }
+               }
+
+               .col-8-cus {
+                    .row-cus {
+                         .col-cus {
+                              .setHeight {
+                                   .owl-qlt {
+                                        .item {
+                                             .card {
+                                                  a {
+                                                       img {
+                                                            height: 145px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("large-cus") {
+     .cfLeTan, .product_gheVP {
+          .row-cus {
+               .col-8-cus {
+                    .row-cus {
+                         .col-cus {
+                              .setHeight {
+                                   .owl-qlt {
+                                        .item {
+                                             .card {
+                                                  .card-body {
+                                                       padding: 10px;
+
+                                                       .card-title {
+                                                            font-size: 14px;
+                                                       }
+                                                  }
+
+                                                  a {
+                                                       img {
+                                                            height: 145px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("1180") {
+     .cfLeTa, .product_gheVPn {
+          .row-cus {
+               .col-cus {
+                    video {
+                         margin-top: 10%;
+                    }
+               }
+
+               .col-8-cus {
+                    .row-cus {
+                         .col-cus {
+                              .setHeight {
+                                   .owl-qlt {
+                                        .item {
+                                             .card {
+                                                  a {
+                                                       img {
+                                                            height: 145px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("medium") {
+     .cfLeTan, .product_gheVP {
+          .row-cus {
+               .col-cus {
+                    video {
+                         margin-top: 0;
+                         width: 56%;
+                    }
+               }
+
+               .col-8-cus {
+                    .row-cus {
+                         .col-cus {
+                              .setHeight {
+                                   .owl-qlt {
+                                        .item {
+                                             .card {
+                                                  a {
+                                                       img {
+                                                            height: 145px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("320") {
+     .product_gheVP{
+          .row-cus{
+               padding: 0!important;
+          }
+     }
+     .cfLeTan, .product_gheVP {
+          .quayLeTan{
+               p{
+                    font-size: 28px!important;
+               }
+          }
+          .row-cus {
+               .col-cus {
+                    video {
+                         margin-top: 0;
+                         width: 98%;
+                    }
+               }
+
+               .col-8-cus {
+                    .row-cus {
+                         .col-cus {
+                              .setHeight {
+                                   .owl-qlt {
+                                        .owl-dots{
+                                             .owl-dot{
+                                                  zoom: .6;
+                                             }
+                                        }
+                                        .item {
+                                             .card {
+                                                  a {
+                                                       img {
+                                                            height: 145px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("large-cus") {
+     .categories {
+          .cate__content {
+               .cate{
+
+               }
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 6%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("1180") {
+     .row-cf-cus {
+          .col-8-cus {
+               .row-cus {
+                    .col-12-cus {
+                         .setHeight {
+                              .owl-banCF {
+                                   .owl-stage-outer {
+                                        .owl-stage {
+                                             .owl-item {
+                                                  .item {
+                                                       .card {
+                                                            .card-body {}
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+
+          .col-4-cus-video-cf {
+               padding-left: 0;
+
+               video {
+                    margin-top: 22% !important;
+               }
+          }
+     }
+}
+
+@include responsive("1060") {
+     .categories {
+          .cate__content {
+               .cate{
+                    font-size: 20px;
+               }
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 30%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("large") {
+     .categories {
+          .cate__content {
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 6%;
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("920") {
+     .categories {
+          .cate__content {
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 6%;
+                              }
+                         }
+
+                         .col-8-cus {
+                              .nav-tabs {
+                                   .nav-item {
+                                        .nav-link {
+                                             font-size: 13px;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("850") {
+     .categories {
+          .cate__content {
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 6%;
+                              }
+                         }
+
+                         .col-8-cus {
+                              .nav-tabs {
+                                   .nav-item {
+                                        .nav-link {
+                                             padding: 0.1rem 0.8rem;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("820") {
+     .categories {
+          .cate__content {
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 12%;
+                              }
+                         }
+
+                         .col-8-cus {
+                              .nav-tabs {
+                                   .nav-item {
+                                        .nav-link {
+                                             padding: 0.1rem 0.8rem;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("785") {
+     .categories {
+          .cate__content {
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 12%;
+                              }
+                         }
+
+                         .col-8-cus {
+                              .nav-tabs {
+                                   .nav-item {
+                                        .nav-link {
+                                             padding: 0.1rem 0.6rem;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("medium") {
+     .categories {
+          .cate__content {
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 0;
+                                   width: 56%;
+                              }
+                         }
+
+                         .col-8-cus {
+                              .nav-tabs {
+                                   justify-content: center;
+
+                                   .nav-item {
+                                        .nav-link {
+                                             font-size: 15px;
+                                             padding: 0.1rem 1rem;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("small") {
+     .categories {
+          .cate__content {
+               .cate{
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                    margin: 12px 0 ;
+               }
+               .product {
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 0;
+                                   width: 56%;
+                              }
+                         }
+
+                         .col-8-cus {
+                              .nav-tabs {
+                                   justify-content: center;
+
+                                   .nav-item {
+                                        .nav-link {
+                                             font-size: 15px;
+                                             padding: 0.1rem 0.7rem;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("320") {
+     .categories {
+          .product__banHop{
+               .banHop{
+                    p{
+                         font-size: 28px!important;
+                    }
+               }
+               .banCF{
+                    p{
+                         font-size: 28px!important;
+                    }
+               }
+               .row-cf-cus{
+                    .col-8-cus{
+                         .row-cus{
+                              .col-12-cus{
+                                   .setHeight{
+                                        .owl-banCF{
+                                             .owl-item{
+                                                  padding: 0!important;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+               .row-cus{
+                    padding: 0!important;
+               }
+               
+               .banCF{
+                    padding-top: 0!important;
+               }
+          }
+          .cate__content {
+               .cfLeTan{
+                    .row-cus{
+                         padding: 0;
+                    }
+                    .quayLeTan{
+                         p{
+                              font-size: 28px;
+                         }
+
+                    }
+               }
+               .product {
+                    .banLV {
+                         p {
+                              font-size: 28px;
+                         }
+                    }
+
+                    .row-cus {
+                         .col-4-cus {
+                              video {
+                                   margin-top: 0;
+                                   width: 56%;
+                              }
+                         }
+
+                         .col-8-cus {
+                              .tab-content{
+                                   .tab-pane{
+                                        .products-carousel{
+                                             .item{
+                                                  padding: 0;
+                                             }
+                                        }
+                                   }
+                              }
+                              .nav-tabs {
+                                   justify-content: center;
+
+                                   .nav-item {
+                                        .nav-link {
+                                             font-size: 10px;
+                                             padding: 0.1rem 0.4rem;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+

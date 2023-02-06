@@ -1,0 +1,1211 @@
+.container-fluid {
+     padding: 0;
+}
+.unselectable {
+     -webkit-user-select: none;
+     -webkit-touch-callout: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+     color: #ab9e9e;
+   }
+header {
+     .header__content {
+          background-color: $color-white;
+          color: $color-black;
+          letter-spacing: -1px;
+
+          .header__top {
+               display: none;
+               p {
+                    line-height: 40px;
+               }
+
+               .col-6 {
+                    padding: 0;
+                    margin: 0;
+               }
+
+               .col-7 {
+                    padding: 0;
+                    margin: 0;
+               }
+
+               .col-5 {
+                    padding: 0;
+                    margin: 0;
+               }
+
+               .row {
+                    padding: 0;
+                    margin: 0;
+               }
+
+               .col-right {
+                    .col-right-content {
+                         text-align: center;
+                         p{
+                              white-space: nowrap;
+                         }
+                    }
+
+                    .col-cus {
+                         p {
+                              padding-right: 29%;
+                         }
+                    }
+               }
+           
+               .col-left {
+                    padding: 0;
+
+                    .col-left-content {
+                         text-align: center;
+                    }
+
+                    .col-logo {
+                         .img-logo {
+                              margin: 0 0 0 auto;
+
+                              width: 40px;
+                              padding: 5px;
+
+                              img {
+                                   width: 100%;
+                                   height: 100%;
+                              }
+                         }
+
+                         .col-5-cus {
+                              p {
+                                   white-space: nowrap;
+                              }
+                         }
+                    }
+
+                    .col-link {
+                         .row-cus {
+                              line-height: 40px;
+
+                              .col-cus {
+                                   white-space: nowrap;
+                                   a {
+                                        color: $color-white;
+
+                                        i {
+                                             font-size: 20px;
+                                             padding: 0 20px;
+                                        }
+                                       
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+
+          
+          .header__bottom {
+               background-color: $color-white;
+               color: $color-black;
+               padding: 0 15px;
+               .row {
+                    margin: 0;
+                    width: 100%;
+                    align-items: center;
+                    .col-left {
+                         padding: 0;
+                         margin: 0;
+                         .row-cus {
+                              align-items: center;
+                              margin: 0;
+                              .col-logo {
+                                   text-align: center;
+
+                                   .logo {
+                                        width: 32%;
+                                        margin: 0 auto;
+
+                                        img {
+                                             width: 100%;
+                                        }
+                                   }
+
+                                   .name_logo {
+                                        p {
+                                             font-family: "Roboto Slab", serif;
+                                             font-size: 17px;
+                                        }
+                                   }
+                              }
+
+                              .col-order {
+                                   padding: 0;
+                                   .order {
+                                        border-radius: 60px;
+                                        width: 100%!important;
+                                        transition: all .3s;
+                                        &:hover{
+                                             background-color: $color-yellow;
+                                             color: $color-white;
+                                             border-color: $color-yellow;
+                                             .row-cus{
+                                                  .col-3{
+                                                       i{
+                                                            color: $color-black;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                        cursor: pointer;
+                                        width: 250px;
+                                        height: 85px;
+                                        border: 1px solid white;
+                                        //     padding: 30px;
+                                        background-color: $color-white-1;
+                                        color: $color-black;
+
+                                        .row-cus {
+                                             line-height: 318%;
+                                             margin: 0;
+                                             .col-4 {
+                                                  line-height: 20px;
+                                                  padding: 0;
+                                                  text-align: center;
+
+                                                  i {
+                                                       transition: all .3s;
+                                                       font-size: 35px;
+                                                  }
+                                             }
+
+                                             .col-9-cus {
+                                                  padding: 0;
+
+                                                  p {
+                                                       &:nth-child(1) {
+                                                            font-size: 26px;
+                                                       }
+
+                                                       &:nth-child(2) {
+                                                            font-size: 19px;
+                                                            &:hover{
+                                                                 text-decoration: underline;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+
+                    .col-right {
+                         margin: 0;
+                         padding: 0;
+                         .row-cus{
+                              justify-content: center;
+                              .col{
+                                   text-align: center;
+                                   p{
+                                        font-size: 20px;
+                                        white-space: nowrap;
+                                   }
+                              }
+                              .link{
+                                   display: block;
+                                   white-space: nowrap;
+                                   a {
+                                        font-size: 20px;
+                                        text-decoration: none!important;
+                                        color: $color-black;
+                                        
+                                        .dropdown-toggle{
+                                             &::after{
+                                                  content: "rrrrr";
+                                             }
+                                        }
+                                        i {
+                                             font-size: 25px;
+                                             padding: 0 24px;
+                                             
+                                        }
+                                        .i-vc{
+                                             // padding-right: 0!important;
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+               .row-none{
+                    display: none;
+               }
+          }
+     }
+}
+
+@include responsive("extra-cus"){
+     header{
+          .header__content{
+               .header__bottom{
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             height: 70px;
+                                             .row-cus{
+                                                  line-height: 260%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 22px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 
+                                                                 font-size: 17px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  font-size: 15px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("1085"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        a{
+                                             i{
+                                                  padding: 0 10px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                              //      .link{
+                              //           display: none;
+                              //      }
+                              // }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 100%;
+                                             height: 70px;
+                                             .row-cus{
+                                                  line-height: 260%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 22px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 
+                                                                 font-size: 17px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  font-size: 14px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("large"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        display: block;
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 100%;
+                                             height: 63px;
+                                             .row-cus{
+                                                  line-height: 260%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 22px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 font-size: 17px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  font-size: 13px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+}
+
+@include responsive("medium"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        margin: 10px 0;
+                                        display: block;
+                                        a{
+                                             i{
+                                                  font-size: 25px;
+                                                  padding: 0 50px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 69%!important;
+                                             height: 63px;
+                                             .row-cus{
+                                                  line-height: 260%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 22px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 font-size: 17px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  font-size: 13px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("small-cus"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        margin: 10px 0;
+                                        display: block;
+                                        a{
+                                             i{
+                                                  font-size: 25px;
+                                                  padding: 0 23px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 69%!important;
+                                             height: 63px;
+                                             .row-cus{
+                                                  line-height: 260%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 22px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 font-size: 17px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  font-size: 13px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("small"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        margin: 10px 0;
+                                        display: block;
+                                        a{
+                                             i{
+                                                  font-size: 25px;
+                                                  padding: 0 23px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 69%!important;
+                                             height: 63px;
+                                             .row-cus{
+                                                  line-height: 260%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 17px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 font-size: 14px;
+                                                            }
+                                                       }
+                                                  }
+                                                  .col-3{
+                                                       i{
+                                                            font-size: 30px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  font-size: 13px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("small-max"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                                   p{
+                                        font-size: 11px;
+                                   }
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                                   font-size: 11px;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        margin: 10px 0;
+                                        display: block;
+                                        a{
+                                             i{
+                                                  font-size: 25px;
+                                                  padding: 0 20px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 69%!important;
+                                             height: 63px;
+                                             .row-cus{
+                                                  line-height: 260%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 // font-size: 22px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 // font-size: 17px;
+                                                            }
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  // font-size: 13px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("ip12"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                                   p{
+                                        font-size: 10px;
+                                   }
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                                   font-size: 11px;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        margin: 10px 0;
+                                        display: block;
+                                        a{
+                                             i{
+                                                  font-size: 25px;
+                                                  padding: 0 28px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 86%!important;
+                                             height: 63px;
+                                             .row-cus{
+                                                  line-height: 233%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 14px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 font-size: 12px;
+                                                            }
+                                                       }
+                                                  }
+                                                  .col-3{
+                                                       i{
+                                                            font-size: 24px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  // font-size: 13px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("375"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                                   p{
+                                        font-size: 9px;
+                                   }
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                                   font-size: 11px;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        margin: 10px 0;
+                                        display: block;
+                                        a{
+                                             i{
+                                                  font-size: 20px;
+                                                  padding: 0 28px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 86%!important;
+                                             height: 63px;
+                                             .row-cus{
+                                                  line-height: 233%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 14px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 font-size: 12px;
+                                                            }
+                                                       }
+                                                  }
+                                                  .col-3{
+                                                       i{
+                                                            font-size: 24px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  // font-size: 13px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+@include responsive("320"){
+     header{
+          .header__content{
+               .header__top{
+                    .col-left{
+                         display: none;
+                         .col-logo{
+                              display: none;
+                         }
+                         .col-link{
+                              .row-cus{
+                                   .col-cus{
+                                        padding: 0;
+                                        text-align: right;
+                                        a{
+                                             i{
+                                                  padding: 0 25px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+                    .col-right{
+                         padding: 5px;
+                         .row{
+                              .col-right-content{
+                                   text-align: left;
+                                   p{
+                                        font-size: 8.5px;
+                                   }
+                              }
+                         }
+                         .col-cus{
+                              text-align: right!important;
+                              p{
+                                   padding-right: 0;
+                                   font-size: 11px;
+                              }
+                         }
+                    }
+               }
+               .header__bottom{
+                    padding: 0;
+                    .row-none{
+                         display: block;
+                    }
+                    .row{
+                         .col-right{
+                              .row-cus{
+                                   .col{
+                                        display: none;
+                                        p{
+                                             font-size: 15px;
+                                        }
+                                   }
+                                   .link{
+                                        margin: 10px 0;
+                                        display: block;
+                                        a{
+                                             i{
+                                                  font-size: 20px;
+                                                  padding: 0 19px;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                         .col-left{
+                              .row-cus{
+                                   .col-order{
+                                        .order{
+                                             width: 90%!important;
+                                             height: 52px;
+                                             .row-cus{
+                                                  line-height: 194%;
+                                                  .col-9-cus{
+                                                       p{
+                                                            &:nth-child(1){
+                                                                 font-size: 14px;
+                                                            }
+                                                            &:nth-child(2){
+                                                                 white-space: nowrap;
+                                                                 font-size: 12px;
+                                                            }
+                                                       }
+                                                  }
+                                                  .col-3{
+                                                       i{
+                                                            font-size: 24px;
+                                                       }
+                                                  }
+                                             }
+                                        }
+                                   }
+                                   .col-logo{
+                                        .name_logo{
+                                             p{
+                                                  font-size: 11px;
+                                                  white-space: nowrap;
+                                             }
+                                        }
+                                   }
+                              }
+                         }
+                    }
+               }
+          }
+     }
+}
+
+
+
+

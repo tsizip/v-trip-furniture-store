@@ -1,0 +1,26 @@
+// .carousel{
+//      .carousel__content{
+//           .owl-carousel{
+//                .owl-stage{
+//                     .owl-item{
+//                          width: 1349.1px!important;
+//                     }
+//                }
+//           }
+//      }
+// }
+.carousel{
+     z-index: 101;
+     
+}
+@include responsive("320"){
+     .carousel{
+          .carousel__content{
+               .owl-carousel{
+                    .owl-nav{
+                         margin-top: 0;
+                    }
+               }
+          }
+     }
+}

@@ -1,0 +1,44 @@
+// color
+$color-black: #000;
+$color-black-1: #222121;
+$color-black-2:#151515;
+$color-black-3: #0F0F0F;
+$color-black-4: #061325;
+$color-blue: #132238;
+$color-blue-2: #152E4D;
+$color-blue-3: #4464AF;
+$color-blue-1: #9da9bb;
+$color-white: #fff;
+$color-white-1: #EEEDF2;
+$color-gray: #D0CFCF;
+$color-gray-1: #4D4C54;
+$color-yellow: #DBAD2F;
+
+
+
+
+// break point 
+$breakpoints:(
+    'extra' :1366px,
+    'extra-cus': 1250px,
+    'extra-large':1200px,
+    'extra-large1':1199px,
+    '1180': 1180px,
+    '1085': 1085px,
+    'large-cus' :1070px,
+    '1060' :1060px,
+    '902' : 902px,
+    'large':992px,
+    '920':920px,
+    '850':850px,
+    '820':820px,
+    '785':785px,
+    'medium':768px,
+    '660' : 660px,
+    'small-cus': 610px,
+    'small':576px,
+    'small-max': 500px,
+    'ip12':390px,
+    '375': 375px,
+    '320': 320px,
+)
